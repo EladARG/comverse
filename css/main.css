@@ -1,0 +1,160 @@
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    display: block;
+}
+
+header{
+    height: 90px;
+    top:0;
+    right:0;
+    left: 0;
+    background: white;
+    box-shadow: 0px 7px 5px 0px rgba(0,0,0,0.27);
+    z-index: 99;
+    display: block;
+}
+
+.header_cls{
+    position: fixed;
+    width: 100%;
+}
+
+
+.header_cls_con{
+    display: block;
+    position: relative;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.header_cls_con a:hover {
+    color: #30A4D9;
+}
+
+.logo {
+    z-index: 200;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  bottom: -15px;     
+}
+
+nav {
+    position: relative;
+    display: inline-block;
+
+}
+
+.nav_cls {
+   	background-color: white;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding-left:200px;
+    padding-right:50px;
+    padding-top:5px;
+}
+
+.nav_cls:after {
+  content: "";
+  display: block;
+  color: black;
+  clear: both;
+}
+
+
+.nav_cls_menu > ul {
+  display: none;
+  position: absolute;
+  width: 150px;
+}
+
+li a {
+  color: #333;
+}
+
+.nav_cls> .nav_cls_menu  {
+  float: left;
+
+}
+
+.nav_cls li:hover > .nav_cls_internal {
+  display: block;
+}
+
+.nav_cls_menu > .nav_cls_internal > li {
+  float: none;
+
+}
+
+.nav_cls> li > a {
+    text-decoration: none;
+    color: #585951;
+    display:block;
+    outline:0;
+    padding: 0 0 0 10px;
+    
+}
+
+.login_cls {
+    position: absolute;
+    display:inline-block;
+    color:#585951;
+    top: 0;
+    right:0;
+    padding-right: 32px;
+}
+
+.login_cls >li {
+  display:inline;
+}
+
+.login_cls >li>a{
+    color:#585951;
+    text-decoration: none;
+}
+
+.search{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left:0px;
+    padding-left: 0px;
+    float: right;
+}
+
+.search input {
+    border: 1px solid rgb(210, 210, 210);
+    background-color:  #ffffff;
+    box-shadow: 0px 1px 1px 0px rgba(231, 231, 231, 0.75);
+    border-radius: 6px;   
+    padding: 0px;
+    width: 146px;
+    height: 20px;
+    outline-style: none;
+    display: inline-block;
+}
+
+.search button {
+    border: none;
+    display:inline-block;
+    right:35px;
+    background: none;
+    position:relative;
+
+}
+
+.search button img {
+    width:13px;
+    height:13px;
+}
+
+
+
