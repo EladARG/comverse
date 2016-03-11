@@ -70,7 +70,7 @@ nav {
 }
 
 
-.nav_cls_menu > ul {
+.nav_cls-outside > ul {
   display: none;
   position: absolute;
   width: 150px;
@@ -80,16 +80,16 @@ li a {
   color: #333;
 }
 
-.nav_cls> .nav_cls_menu  {
+.nav_cls> .nav_cls-outside  {
   float: left;
 
 }
 
-.nav_cls li:hover > .nav_cls_internal {
+.nav_cls li:hover > .nav_cls-inside {
   display: block;
 }
 
-.nav_cls_menu > .nav_cls_internal > li {
+.nav_cls-outside > .nav_cls-inside > li {
   float: none;
 
 }
