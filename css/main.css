@@ -40,10 +40,10 @@ header{
 
 .logo {
     z-index: 200;
-  height: 100%;
-  position: relative;
-  display: inline-block;
-  bottom: -15px;     
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    bottom: -15px;     
 }
 
 nav {
@@ -53,31 +53,32 @@ nav {
 }
 
 .nav_cls {
-   	background-color: white;
-    display: inline-block;
+
     list-style-type: none;
     margin: 0;
     padding-left:180px;
     padding-right:45px;
     padding-top:1px;
+    background-color: white;
+    display: inline-block;
 }
 
 .nav_cls:after {
-  content: "";
-  display: block;
-  color: black;
-  clear: both;
+    content: "";
+    display: block;
+    color: black;
+    clear: both;
 }
 
 
 .nav_cls_external > ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: none;
-  position: absolute;
-  width: 150px;
+    /*list-style-type: none;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    width: 150px;
 }
 
 /*li a {
@@ -85,16 +86,16 @@ nav {
 }*/
 
 .nav_cls> .nav_cls_external  {
-  float: left;
+    float: left;
 
 }
 
 .nav_cls li:hover > .nav_cls_internal {
-  display: block;
+    display: block;
 }
 
 .nav_cls_external > .nav_cls_internal > li {
-  float: none;
+    float: none;
 
 }
 
@@ -117,7 +118,7 @@ nav {
 }
 
 .login_cls >li {
-  display:inline;
+    display:inline;
 }
 
 .login_cls >li>a{
@@ -239,34 +240,34 @@ nav {
     text-decoration: none;
 }
 .first{
-  background: #2D95C9;
-  font: 1em/11px Arial;
-  text-align: center;
-  float: left;
-  margin-left: 7px;
-  width: 11px;
-  height: 11px;
-  cursor: pointer;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  color:#2D95C9;
+    background: #2D95C9;
+    font: 1em/11px Arial;
+    text-align: center;
+    float: left;
+    margin-left: 7px;
+    width: 11px;
+    height: 11px;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color:#2D95C9;
     
 }
 
 .second ,
 .third ,
 .forth{
-  background: #e5e5e5;
-  color: #e5e5e5;
-  font: 1em/11px Arial;
-  text-align: center;
-  float: left;
-  margin-left: 7px;
-  width: 11px;
-  height: 11px;
-  cursor: pointer;
-  -webkit-border-radius: 3px;
-  border-radius: 3px
+    background: #e5e5e5;
+    color: #e5e5e5;
+    font: 1em/11px Arial;
+    text-align: center;
+    float: left;
+    margin-left: 7px;
+    width: 11px;
+    height: 11px;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    border-radius: 3px
 
 }
 
