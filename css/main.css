@@ -57,9 +57,9 @@ nav {
     display: inline-block;
     list-style-type: none;
     margin: 0;
-    padding-left:200px;
-    padding-right:50px;
-    padding-top:5px;
+    padding-left:180px;
+    padding-right:45px;
+    padding-top:1px;
 }
 
 .nav_cls:after {
@@ -70,26 +70,30 @@ nav {
 }
 
 
-.nav_cls-outside > ul {
+.nav_cls_external > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   display: none;
   position: absolute;
   width: 150px;
 }
 
-li a {
+/*li a {
   color: #333;
-}
+}*/
 
-.nav_cls> .nav_cls-outside  {
+.nav_cls> .nav_cls_external  {
   float: left;
 
 }
 
-.nav_cls li:hover > .nav_cls-inside {
+.nav_cls li:hover > .nav_cls_internal {
   display: block;
 }
 
-.nav_cls-outside > .nav_cls-inside > li {
+.nav_cls_external > .nav_cls_internal > li {
   float: none;
 
 }
