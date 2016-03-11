@@ -81,9 +81,9 @@ nav {
     width: 150px;
 }
 
-/*li a {
+li a {
   color: #333;
-}*/
+}
 
 .nav_cls> .nav_cls_external  {
     float: left;
