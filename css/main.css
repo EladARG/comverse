@@ -284,7 +284,7 @@ li a {
 
 }
 
-.box_cls{
+.boxes_cls{
     width:286px;
     height:174px;
     color:white;
@@ -297,7 +297,7 @@ li a {
 
 
 
-.box_cls h2{
+.boxes_cls h2{
     cursor:pointer;
     font-size: 24px;
     line-height: 30px; 
@@ -308,7 +308,7 @@ li a {
 }
 
 
-.box_cls a{
+.boxes_cls a{
     text-decoration:none;
     color:white;
     font-size:15px;
@@ -337,10 +337,10 @@ li a {
 
 
 
-.box_cls:hover{
+.boxes_cls:hover{
     opacity: 1;
 }
 
-.box_cls a:hover{
+.boxes_cls a:hover{
     color: #30A4D9;
 }
