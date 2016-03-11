@@ -344,3 +344,130 @@ li a {
 .boxes_cls a:hover{
     color: #30A4D9;
 }
+
+
+
+
+.offerings_cls{
+    background: url("../img/WhatCanWeBack.jpg") no-repeat center center;
+    /*background-size: cover;*/
+    z-index: 25;
+ /*   height: 451px;*/
+    padding-bottom: 58px;
+    position: relative;
+}
+
+
+
+
+
+.what_can_we_do {
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    display: block;
+    max-width: 960px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    z-index: 25;
+    position: relative;
+
+
+
+}
+
+.what_can_we_do h3{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0;
+    line-height: 40px;
+    position: relative;
+}
+
+.what_can_we_do ul{
+    padding-left: 0px;
+    list-style: none;
+    display: block;
+
+}
+
+
+.icons li{
+    text-align: center;
+    vertical-align: top; 
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 0px;
+    max-width: 155px;
+}
+.icons_cls .business_stimu::before{
+      content: url("../img/solution_icon_biz-analitics.png");
+}
+
+.icons_cls .business_stimu:hover::before{
+      content: url("../img/solution_icon_biz-analitics_hover.png");
+}
+
+
+.icons_cls .digital::before{
+      content: url("../img/solution_icon_diti-cx.png");
+}
+
+.icons_cls .digital:hover::before{
+      content: url("../img/solution_icon_diti-cx_hover.png");
+}
+
+.icons_cls .smart_mone::before{
+      content: url("../img/solution_icon_smart-money.png");
+}
+
+.icons_cls .smart_mone:hover::before{
+      content: url("../img/solution_icon_smart-money_hover.png");
+}
+
+.icons_cls .optimization::before{
+      content: url("../img/solution_icon_optimize-efficnt.png");
+}
+
+.icons_cls .optimization:hover::before{
+      content: url("../img/solution_icon_optimize-efficnt_hover.png");
+}
+
+.icons_cls .personalized::before{
+      content: url("../img/solution_icon_personal.png");
+}
+
+.icons_cls .personalized:hover::before{
+      content: url("../img/solution_icon_personal_hover.png");
+}
+
+.icons_cls .business_trans::before{
+      content: url("../img/solution_icon_biz-transform.png");
+}
+
+.icons_cls .business_trans:hover::before{
+      content: url("../img/solution_icon_biz-transform_hover.png");
+}
+
+
+.what_can_we_do a.more_btn{
+    margin-top: 60px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.see_solutions_btn{
+    width: 188px;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    position: relative;
+  }
