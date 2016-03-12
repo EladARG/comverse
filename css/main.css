@@ -293,11 +293,7 @@ li a {
     display: inline-block;
     margin-right: 10px;
     position: relative;
-    transition-property: background-color;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-out;
-    transition-delay: initial;
-    cursor:pointer;
+
 }
 
 
@@ -325,12 +321,22 @@ li a {
     background-color: #FF8A3C;
     list-style: none;
     opacity: 0.7;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+    cursor:pointer;
 }
 
 .pink_box{
     background-color: #f24f9e;
     list-style: none;
     opacity: 0.7;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+    cursor:pointer;
 }
 
 
@@ -338,6 +344,11 @@ li a {
     background-color: #66CC33;
     list-style: none;
     opacity: 0.7;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+    cursor:pointer;
 }
 
 
