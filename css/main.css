@@ -75,9 +75,9 @@ nav {
     /*list-style-type: none;*/
     /*margin: 0;*/
     /*padding: 0;*/
-    -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
-    -moz-columns: 100px 3; /* Firefox */
-    columns: 100px 3;
+    -webkit-columns: 80px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 80px 2; /* Firefox */
+    columns: 80px 2;
     overflow: hidden;
     display: none;
     position: absolute;
