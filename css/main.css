@@ -7,7 +7,7 @@ body{
 }
 
 header{
-    height: 70px;
+    height: 90px;
     top:0;
     right:0;
     left: 0;
@@ -166,8 +166,8 @@ li a {
     background-image: url("../img/slide-bg-complexity.jpg");
     background-size: auto;
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    background-position: center 90px;
+    background-attachment: fixed;
+    /*background-position: center 90px;*/
     height: 650px;
     display:block;
     padding-top:78px;
