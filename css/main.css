@@ -44,6 +44,7 @@ header{
     position: relative;
     display: inline-block;
     bottom: -15px;     
+    /*todo margin*/
 }
 
 nav {
@@ -72,9 +73,9 @@ nav {
 
 
 .nav_cls_external > ul {
-    /*list-style-type: none;*/
-    /*margin: 0;*/
-    /*padding: 0;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
     -moz-columns: 100px 3; /* Firefox */
     columns: 100px 3;
