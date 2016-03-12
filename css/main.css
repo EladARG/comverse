@@ -297,6 +297,7 @@ li a {
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
     transition-delay: initial;
+    cursor:pointer;
 }
 
 
