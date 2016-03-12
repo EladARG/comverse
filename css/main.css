@@ -75,14 +75,15 @@ nav {
     /*list-style-type: none;*/
     /*margin: 0;*/
     /*padding: 0;*/
-    -webkit-columns: 80px 2; /* Chrome, Safari, Opera */
-    -moz-columns: 80px 2; /* Firefox */
+    -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 3; /* Firefox */
     columns: 100px 3;
     overflow: hidden;
     display: none;
     position: absolute;
     width: 100%;
     height: 100px;
+
 }
 
 li a {
