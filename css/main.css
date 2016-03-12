@@ -97,11 +97,12 @@ li a {
 
 .nav_cls li:hover > .nav_cls_internal {
     display: block;
+    background-color: white;
 }
 
 .nav_cls_external > .nav_cls_internal > li {
     float: none;
-
+background-color: white;
 }
 
 .nav_cls> li > a {
