@@ -349,7 +349,7 @@ li a {
 
 
 .offerings_cls{
-    background: url("../img/weDoBG.jpg"), radial-gradient(#59BEDB 0%, #3399CC 100%);
+    background: url("../img/weDoBackground.jpg") no-repeat center center;
     z-index: 25;
     padding-bottom: 58px;
     position: relative;
