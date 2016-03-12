@@ -349,10 +349,8 @@ li a {
 
 
 .offerings_cls{
-    background: url("../img/WhatCanWeBack.jpg") no-repeat center center;
-    /*background-size: cover;*/
+    background: url("../img/weDoBG.jpg") no-repeat center center;
     z-index: 25;
- /*   height: 451px;*/
     padding-bottom: 58px;
     position: relative;
 }
@@ -480,39 +478,89 @@ li a {
     background-attachment: fixed;
     background-position-x: center ;
     background-position-y:center;
-
+    height: 454px;
+    z-index:15;
+    display:block;
+    padding:2px;
+    position: relative;
 
 }
 
 .happenings_cls_internal{
-
+    max-width:960px;
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    color: white;
+    position: relative;
 
     
 }
 
 .happenings_cls_internal h4{
- 
+    color:white;
+    font-size: 42px; 
+    font-weight: 300;
+    line-height: 28px; 
+    text-align: center;
+    padding-top: 10px;
 
 }
 
 
 
 .happenings_cls_internal a{
-
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    left: 5px;
 }
 
 
 
 
 .happenings_cls_internal ul{
-
+    position: relative;
+    display: block;
+    list-style-type: none;
+    -webkit-padding-start: 0px;
 }
 
 .happenings_cls_internal li{
-
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 28px; 
+    text-align: left;
 }
 .news_cls div>p,.events_cls div>p,.press_cls div>p{
-
+    text-align: left;
+    border-radius: 2px;
+    background-color:  rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 1px 4px 0px #a2a2a2;
+    width: 296px;
+    height: 119px;
+    margin-right: 10px;
+    padding-top: 10px;
+    font-family: Arial;
+    color:  #1a1a1a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+    cursor:pointer;
 
 }
 
@@ -528,11 +576,10 @@ time{
     box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.2);
     width: 69px;
     height: 99px;
-
- /*   margin-right: 10px;
+    margin-right: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
-    float:left;*/
+    float:left;
 
 }
 
@@ -553,9 +600,13 @@ time{
 
 .month_cls{
 
+
+
     color:white;
     text-align: center;
     display: block;
+
+
     font-size: 25px; 
     font-weight: 400;
 
