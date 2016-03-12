@@ -176,10 +176,10 @@ list-style-type: none;
     background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /*background-position: center 90px;*/
+    background-position: center 90px;
     height: 650px;
     display:block;
-    padding-top:78px;
+    padding-top:10px;
     padding-bottom: 0;
     color:white;
     z-index: 50;
