@@ -78,7 +78,7 @@ nav {
     overflow: hidden;
     display: none;
     position: absolute;
-    /*width: 250px;*/
+    width: 100%;
 }
 
 li a {
