@@ -484,6 +484,13 @@ li a {
     font-weight: 400;
     line-height: 28px;
     position: relative;
+    text-decoration:none;
+    background-color:  #3399cc;
+    box-shadow: 0px 1px 2px 0px rgba(62, 157, 194, 0.75);
+    border-radius: 6px;
+    color: white;
+    padding: 4px 5px 5px 7px;
+    font-size:14px;
   }
 
 
