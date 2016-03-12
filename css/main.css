@@ -293,6 +293,10 @@ li a {
     display: inline-block;
     margin-right: 10px;
     position: relative;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
 }
 
 
