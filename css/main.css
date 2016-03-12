@@ -166,8 +166,8 @@ li a {
     background-image: url("../img/slide-bg-complexity.jpg");
     background-size: auto;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    /*background-position: center 90px;*/
+    /*background-attachment: fixed;*/
+    background-position: center 90px;
     height: 650px;
     display:block;
     padding-top:78px;
@@ -349,7 +349,7 @@ li a {
 
 
 .offerings_cls{
-    background: url("../img/weDoBackground.png")  center center;
+    background: url("../img/weDoBG.jpg") no-repeat center center;
     z-index: 25;
     padding-bottom: 58px;
     position: relative;
