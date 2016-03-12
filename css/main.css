@@ -471,3 +471,134 @@ li a {
     line-height: 28px;
     position: relative;
   }
+
+
+  .happenings_cls{
+    background-image: url("../img/news-and-events-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center ;
+    background-position-y:center;
+
+
+}
+
+.happenings_cls_internal{
+
+
+    
+}
+
+.happenings_cls_internal h4{
+ 
+
+}
+
+
+
+.happenings_cls_internal a{
+
+}
+
+
+
+
+.happenings_cls_internal ul{
+
+}
+
+.happenings_cls_internal li{
+
+}
+.news_cls div>p,.events_cls div>p,.press_cls div>p{
+
+
+}
+
+.press_cls div>p:hover,.news_cls div>p:hover,.events_cls div>p:hover{
+        background-color:  rgba(255, 255, 255, 0.8);
+}
+
+
+time{
+    display: inline-block;
+    border-radius: 2px;
+    background-color:  #3399cc;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    width: 69px;
+    height: 99px;
+
+ /*   margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float:left;*/
+
+}
+
+.day_cls{
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 7px;
+    padding-bottom: 25px;
+    color:white;
+    text-align: center;
+    display: block;
+    border-bottom: dotted;
+    border-bottom-width: 1px;
+    font-size: 48px; 
+    font-weight: 400;
+    width: 60px;
+}
+
+.month_cls{
+
+    color:white;
+    text-align: center;
+    display: block;
+    font-size: 25px; 
+    font-weight: 400;
+
+}
+
+
+.happenings_cls_internal  a:hover{
+    color: black;
+}
+
+.happenings_cls_internal .news_cls a:before{
+    content: url("../img/eventListIconNews.png");
+    position: relative;
+    right: 5px;
+
+}
+
+
+
+.happenings_cls_internal .news_cls a:hover:before{
+      content: url("../img/eventListIconNews_hover.png");
+
+}
+
+.happenings_cls_internal .press_cls a:before{
+    content: url("../img/eventListIconPress.png");
+    position: relative;
+    right: 5px;
+}
+
+.happenings_cls_internal .press_cls a:hover:before{
+      content: url("../img/eventListIconPress_hover.png");
+}
+
+.happenings_cls_internal .events_cls a:before{
+    content: url("../img/eventListIconEvents.png");
+    position: relative;
+    right: 5px;
+}
+
+.happenings_cls_internal .events_cls a:hover:before{
+      content: url("../img/eventListIconEvents_hover.png");
+}
+
+
+
