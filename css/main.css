@@ -2535,7 +2535,6 @@ text-align: left;
         width: 33%;
         margin-right: 0;
         margin-left: 0;
-
     }
 /*.icons li{
     text-align: center;
@@ -2546,7 +2545,7 @@ text-align: left;
     max-width: 155px;
             display: inline-flex;
 }*/
-.mobile_offerings_cls{
+.offerings_cls{
   background: url("../img/weDoBackgroundfix.png") no-repeat center center;
     position: relative;
     height: 100%;
@@ -2555,11 +2554,11 @@ text-align: left;
     padding: 0;
 }
 
-.mobile_what_can_we_do{
+.what_can_we_do{
     height: 100%;
     
 }
-.mobile_what_can_we_do h3{
+.what_can_we_do h3{
     padding-top: 100px;
 }
 
