@@ -776,6 +776,7 @@ time{
     background: white;
     text-align: left;
     padding: 5px;
+    width: 332px;
 }
 
 .jonathan_pierce blockquote{
@@ -811,7 +812,7 @@ time{
     padding-left: 15px;
     margin-bottom: 0px;
     color:  #565656;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 20px;
     text-align: left;
@@ -836,12 +837,12 @@ time{
 
 .companies{
 display: inline-flex;
-padding-top: 15px;
+padding-top: 8px;
 
 }
 .companies_middle{
 display: inline-flex;
-
+padding-bottom: 6px;
 }
 .mtc{
 /*    position: relative;
@@ -856,6 +857,7 @@ display: inline-flex;
     overflow:hidden;
     width:110px;
     height:97px;
+    padding-right: 6px;
 }
 .mtc .bg{
 /*    position: absolute;
@@ -961,6 +963,7 @@ display: inline-flex;
     overflow:hidden;
     width:110px;
     height:97px;
+    padding-right: 6px;
 }
 .tata_sky .bg{
 /*    position: absolute;
@@ -1156,9 +1159,10 @@ display: inline-flex;
     transition-property: margin-top;*/
     position:relative;
     overflow:hidden;
-    width:333px;
-    height:250px;
+    width:330px;
+    height:236px;
     background-color: white;
+    padding-right: 10px;
 }
 .graeme_miller .bg{
 /*    position: absolute;
@@ -1388,6 +1392,7 @@ display: inline-flex;
     overflow:hidden;
     width:110px;
     height:97px;
+    padding-right: 6px;
 }
 .knibctap .bg{
 /*    position: absolute;
@@ -1587,7 +1592,9 @@ display: inline-flex;
     background: white;
     text-align: left;
     padding: 5px;
-    padding-top: 9px;
+    /*padding-top: 9px;*/
+    width: 216px;
+    margin-left: -6px;
 }
 .adale_kehassan hr{
     -webkit-margin-start: auto;
@@ -1663,6 +1670,8 @@ display: inline-flex;
     overflow:hidden;
     width:110px;
     height:97px;
+    margin-left: -6px;
+    padding-right: 6px;
 }
 .three_mob .bg{
 /*    position: absolute;
@@ -1840,4 +1849,5 @@ display: inline-flex;
     font-weight: 300;
     line-height: 30px; 
     text-align: left;
+    padding-left: 10px;
 }
