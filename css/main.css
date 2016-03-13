@@ -2071,7 +2071,7 @@ font-size: 14px;
     font-weight: normal;
     color: white;
 }
-.site_map_internal ul > li > a{
+.site_map_internal ul > li a{
     color: white;
 }
 .site_map_internal h5{
