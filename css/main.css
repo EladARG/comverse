@@ -325,7 +325,7 @@ list-style-type: none;
 }
 
 .boxes_cls{
-    width:286px;
+    width:266px;
     height:174px;
     color:white;
     border-radius: 6px;
@@ -2081,7 +2081,7 @@ font-weight: normal;
 margin-bottom: 10px;
 }
 
-.site_map_cls li:hover > .site_map_internal {
+.site_map_cls li a:hover > .site_map_internal {
     display: block;
     background-color: white;
     list-style-type: none;
