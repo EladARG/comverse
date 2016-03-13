@@ -853,7 +853,7 @@ time{
     left:0;
     width:110px;
     height:97px;
-    margin-top:-97px;
+    margin-top:97px;
 }
 .mtc:hover .bg{
 /*    padding-top: 10px;
@@ -877,7 +877,7 @@ time{
     /*margin-top: 0px;*/
     /*content: url("../img/mts_w108px_X_h95px.jpg");*/
     /*transition-property: margin-top;*/
-     margin-top:-97px;
+     margin-top:0;
 }
 .mtc:hover img{
 /*    position: absolute;
