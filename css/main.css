@@ -284,7 +284,7 @@ list-style-type: none;
     display: none;
     text-decoration: none;
 }
-.first{
+/*.first{
     background: #2D95C9;
     font: 1em/11px Arial;
     text-align: center;
@@ -297,8 +297,8 @@ list-style-type: none;
     border-radius: 3px;
     color:#2D95C9;
     
-}
-
+}*/
+.first,
 .second ,
 .third ,
 .forth{
@@ -316,7 +316,7 @@ list-style-type: none;
 
 }
 
-
+.first:hover,
 .second:hover,
 .third:hover ,
 .forth:hover{
