@@ -2528,6 +2528,7 @@ text-align: left;
         width: 33%;
         margin-right: 0;
         margin-left: 0;
+        display: inline-flex;
     }
 
 .offerings_cls{
@@ -2540,7 +2541,7 @@ text-align: left;
 
 .what_can_we_do{
     height: 100%;
-    display: inline-flex;
+    
 }
 .what_can_we_do h3{
     padding-top: 100px;
