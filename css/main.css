@@ -678,3 +678,419 @@ time{
 
 
 
+
+
+
+
+
+
+
+.success_stories_cls{
+    position: relative;
+    background: #ECECEC;
+    color: #565656;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center ;
+    background-position-y:center;
+    height: 650px;
+    z-index:10;
+    padding:2px;
+
+}
+.seemore{
+    position: relative;
+    max-width: 190px;
+  display: block;
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+.success_stories_cls a.more_btn{
+    position: relative;
+      margin-top: 60px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+.success_stories_internal{
+    position: relative;
+    max-width:960px;
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    display: block;
+
+}
+
+.success_stories_internal ul{
+    position: relative;
+    display: block;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.success_stories_internal li{
+    display: inline-block;
+
+}
+
+
+.success_stories_cls h5{
+    color:  #565656;
+    font-size: 42px; 
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.success_stories_internal .first{
+    border-radius: 2px;
+    width: 349px;
+    vertical-align: top;
+    padding-right: 5px;
+}
+
+.jonathan_pierce{
+    background: white;
+    text-align: left;
+    padding: 5px;
+}
+
+.jonathan_pierce blockquote{
+    color:  #565656;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px; 
+    margin: 0;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 8px;
+
+}
+.jonathan_pierce blockquote p{
+    margin: 0;
+}
+.jonathan_pierce blockquote p:before{
+    content: url("../img/quote-grey.png");
+}
+.jonathan_pierce blockquote:before{
+    content: url("../img/CB-JP-face.png");
+    float:left;
+    padding-right: 5px;
+}
+.jonathan_pierce .person_info:after{
+    content: url("../img/cable_wireless_w100px_X_h42px2.jpg");
+    padding-right: 15px;
+    float:right;
+}
+
+.job_info{
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    color:  #565656;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+
+
+.jonathan_pierce hr{
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    width: 315px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #ECECEC;
+
+}
+
+.mtc{
+    position: relative;
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    content: url("../img/mts_w108px_X_h95px.jpg");
+}
+
+.mtc:hover{
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
+    position: relative;
+
+}
+
+.tata_sky{
+    position: relative;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    content: url("../img/Tata_Sky_w108px_X_h95px.jpg");
+}
+
+.tata_sky:hover{
+    position: relative;
+    content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+}
+
+.upc{
+    position: relative;
+    height: 97px;
+    width: 110px;
+    content: url("../img/upc_w108px_X_h95px.jpg");
+
+}
+
+.upc:hover{
+    position: relative;
+    content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
+    height: 97px;
+    width: 110px;
+}
+
+
+
+
+
+
+.success_stories_internal .two{
+    border-radius: 2px;
+    width: 347px;
+}
+
+.graeme_miller {
+    background: white;
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+
+
+
+.graeme_miller hr{
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    width: 313px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #ECECEC;
+
+}
+
+
+
+
+.graeme_miller blockquote{
+    color:  #565656;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23px; 
+    margin: 0;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 7px;
+    padding-left: 8px;
+
+}
+.graeme_miller blockquote p{
+    margin: 0;
+}
+
+.graeme_miller blockquote:before{
+    content: url("../img/JT-GM-face.png");
+    float:left;
+    padding-right: 5px;
+}
+.graeme_miller .person_info:after{
+    content: url("../img/Jersey_Telecom_w100px_X_h42px.jpg");
+    padding-right: 15px;
+    float:right;
+}
+
+
+
+
+
+
+
+
+.max_telecom{
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    content: url("../img/MAX_telecom_w108px_X_h95.jpg");
+    position: relative;
+
+}
+
+.max_telecom:hover{
+    position: relative;
+    content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+}
+.knibctap{
+    padding-right: 3px;
+    height: 97px;
+    width: 110px;
+    content: url("../img/Kyivstarw_w108px_X_h95.jpg");
+    position: relative;
+
+}
+
+.knibctap:hover{
+    position: relative;
+    content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
+    padding-right: 3px;
+    height: 97px;
+    width: 110px;
+}
+
+.videocon{
+    height: 97px;
+    width: 110px;
+    content: url("../img/VIDEOCON_w108px_X_h95px.jpg");
+    position: relative;
+}
+
+
+.videocon:hover{
+    position: relative;
+    content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
+    height: 97px;
+    width: 110px;
+}
+.stories .three{
+    border-radius: 2px;
+    width: 229px;
+}
+
+
+
+
+
+.adale_kehassan{
+    background: white;
+    text-align: left;
+    padding: 5px;
+    padding-top: 9px;
+}
+.adale_kehassan hr{
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    width: 313px;
+    display: block;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #ECECEC;
+
+}
+
+
+.adale_kehassan blockquote{
+    color:  #565656;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px; 
+    margin: 0;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 8px;
+
+}
+.adale_kehassan blockquote p{
+    margin: 0;
+}
+
+.adale_kehassan blockquote p:before{
+    content: url("../img/quote-grey.png");
+}
+.adale_kehassan .person_info:after{
+    content: url("../img/multilinks.jpg");
+    padding-right: 15px;
+    float:right;
+}
+
+
+
+
+.three_mob{
+    margin-bottom: 0;
+    margin-top: 5px;
+    vertical-align: bottom;
+    height: 97px;
+    width: 110px;
+    content: url("../img/3mob_w108px_X_h95px.jpg");
+
+}
+.three_mob:hover{
+    position: relative;
+    content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
+    margin-bottom: 0;
+    margin-top: 5px;
+    vertical-align: bottom;
+    height: 97px;
+    width: 110px;
+}
+.play{
+    vertical-align: bottom;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    height: 97px;
+    width: 110px;
+    content: url("../img/play_w108px_X_h95px.jpg");
+    padding-left:4px;
+
+}
+
+.play:hover{
+    position: relative;
+    content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    height: 97px;
+    width: 110px;
+    padding-left:4px;
+}
+.name_info{
+    color:  #3aa6db;
+    font-size: 14px; 
+    font-weight: 300;
+    line-height: 30px; 
+    text-align: left;
+}
