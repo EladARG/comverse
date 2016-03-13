@@ -2053,6 +2053,9 @@ footer ul{
     padding: 0;
 }
 
+footer ul > li{
+font-size: 12px;
+}
 
 .site_map_internal{
     display: inline-block;
