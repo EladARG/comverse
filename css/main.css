@@ -2200,3 +2200,420 @@ font-weight: 400;
 line-height: 24px;
 text-align: left;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------- Mobile ---------------------------*/
+/*-------------------------------- Mobile ---------------------------*/
+
+.mobile{
+    display:none;
+}
+
+.mobile_site_map_cls,
+.search_mobile{
+    display: none;
+}
+
+
+@media all and (max-width: 976px)   {
+
+.mobile{
+    display: block;
+    position: relative;
+}
+.header_cls {
+    
+    width: 100%;
+
+}
+
+.logo{
+    float: none;
+    height: 37px;
+    margin-right: -54px;
+    padding-top: 35px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: absolute;
+    right: 50%;
+    width: 108px;
+    top: 0;
+}
+
+.logo > img{
+    max-width: 100%;
+
+}
+
+
+.login_cls,
+.search,
+.nav_cls{
+    display: none;
+}
+
+.adale_kehassan,
+.three_mob,
+.play{
+    display: none;
+}
+
+.search_btn_mobile{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.search_moblie{
+  height: 30px;
+  width: 30px;
+  border: 1px solid #d9d9d9;
+  float: none;
+    border-radius: 5px;
+    background: url("../img/searchBtnMobile.png") no-repeat scroll center center, linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
+
+}
+
+
+.mobile_nav_btn{
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.nav_moblie{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #d9d9d9;
+    float: none;
+    border-radius: 5px;
+    background: url("../img/hamburger-icon.png") no-repeat scroll center center, linear-gradient(to bottom, #f2f2f2 0%,#e5e5e5 100%);
+
+}
+
+
+    .mobile a
+    {
+        text-decoration: none;
+        color: #585951;
+        vertical-align: middle;
+    }
+
+
+
+
+    .mobile li
+    {
+        background-color: #FCFCFC;
+        border-bottom: solid 1px #DBDBDB;
+        background:#DBDBDB;
+        padding: 5px;
+        height: 28px;
+        cursor: pointer;        
+    }
+
+
+    .mobile li:before
+    {
+        content: url("../img/navCollapseArrowRight.png");
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+
+    .mobile li:hover
+    {
+        background-image: none; 
+        background-color: #FCFCFC;
+    }
+
+     
+
+    .mobile ul
+    {
+        z-index: 0;
+        padding-left: 0;
+        margin-top: 90px;
+        list-style: none;
+        display: none;
+        text-align: left;
+        width: 100%;
+        float: left;
+        clear: both;
+
+    }
+    .mobile form
+    {
+        z-index: 999;
+        position: relative;
+        top: 90px;
+        z-index: 999;
+        width: 100%;
+        top: 90px;
+        color:black;
+        display: none;
+    }
+
+    .mobile form input
+    {
+
+        z-index: 999;
+        color:black;
+        width: 100%;
+        line-height: 25px;
+        font-size: 14px;
+        padding-left: 5px;
+    }
+
+    input[type=checkbox]
+    {
+        display: none;
+    }
+
+    .mobile_search_check:checked ~ form
+    {
+        display: block;
+    }
+
+    .mobile_nav_check:checked ~ ul
+    {
+        display: block;
+    }
+    .mobile a:hover
+    {
+        color:rgb(157, 160, 149);        
+    }  
+
+
+
+
+
+/*-------------------------------- Carousel ---------------------------*/
+/*-------------------------------- Carousel ---------------------------*/
+
+.carousel_cls,
+.carousel_cls_con{
+    margin: 0;
+    padding: 0;
+    background-position: relative;
+    height: 100%;
+
+
+}
+
+
+.carousel_cls_con > h1{
+    margin-top: 0;
+    padding-top:85px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 24px ; 
+    font-weight: 400;
+    line-height: 44px; 
+    text-align: left;
+    background: #3E8CBD;
+    opacity: 0.7;
+    width: 100%;
+    position: relative;
+}
+
+.carousel_cls_con >.carousel_cls_con_up{
+    padding-top: 0;
+    font-weight: 400;
+    text-align: left;
+    background: #3E8CBD;
+    opacity: 0.7;
+    width: 100%;
+    margin-bottom: 10px;
+        position: relative;
+
+}
+.carousel_cls_con_up >p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.etc_cls{
+    list-style-type: none;
+}
+
+.etc_cls a{
+    display: block;
+    padding-top: 10px;
+}
+
+.first{
+    background: #2D95C9;
+    color: black;
+  text-align: center;
+  float: left;
+  margin-left: 7px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+    
+}
+
+.seconds,
+.third,
+.forth{
+    background: #BCBCBC;
+    color: black;
+  text-align: center;
+  float: left;
+  margin-left: 7px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+    
+}
+
+.site_map_cls{
+    display: none;
+}
+.mobile_site_map_cls{
+    position: relative;
+    display: block;
+}
+
+/*-------------------------------- Offerings ---------------------------*/
+/*-------------------------------- Offerings ---------------------------*/
+    .icons_cls li ,.icons_cls li:before {
+        position: relative;
+        width: 33%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+.offerings_cls{
+    position: relative;
+    height: 100%;
+    text-align: center;
+    display: block;
+    padding: 0;
+}
+
+.what_can_we_do{
+    height: 100%;
+}
+.what_can_we_do h3{
+    padding-top: 100px;
+}
+
+/*-------------------------------- Happenings ---------------------------*/
+/*-------------------------------- Happenings ---------------------------*/
+    .happenings_cls_internal{
+        text-align: center;
+        height: 100%;
+    }
+    .happenings_cls{
+        text-align: center;
+        height: 100%;
+    }
+
+
+
+
+
+/*-------------------------------- Success Stories ---------------------------*/
+/*-------------------------------- Success Stories ---------------------------*/
+
+.success_stories_cls{
+    height: 100%;
+
+}
+.graeme_miller {
+    padding-right: 0;
+}
+.success_stories_internal ul {
+    text-align: center;
+}
+.success_stories_internal li{
+text-align: center;
+    display: inherit;
+}
+
+
+
+
+/*-------------------------------- Footer ---------------------------*/
+/*-------------------------------- Footer ---------------------------*/
+footer{
+    bottom: 0;
+    padding-top: 0;
+}
+    .mobile_site_map_cls li
+    {
+        color:white;
+        background-color: #2D2D2D;
+        border-bottom: solid 1px #DBDBDB;
+        background:#2D2D2D;;
+        padding: 5px;
+        height: 28px;
+        cursor: pointer;        
+    }
+
+    .mobile_site_map_cls a{
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .mobile_site_map_cls li:hover
+    {
+        background-image: none; 
+        background-color: #FCFCFC;
+        background: #ECECEC;
+    }
+
+    .mobile_site_map_cls a:hover
+    {
+        color: #3399CC;        
+    }    
+
+    .mobile_site_map_cls ul
+    {
+
+        padding-left: 0;
+        list-style: none;
+        text-align: left;
+        width: 100%;
+        float: left;
+        clear: both;
+
+    }
+    .mobile_copyright{
+        font-size: 14px;
+        background: white;
+        color: black;
+        text-align: center;
+    }
