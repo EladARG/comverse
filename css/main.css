@@ -89,6 +89,7 @@ nav {
 
 li a {
   color: #333;
+  text-decoration: none;
 }
 
 .nav_cls> .nav_cls_external  {
