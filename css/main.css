@@ -865,7 +865,7 @@ time{
     position: relative;
     /*margin-top: 97px;*/
     visibility: visible;
-    margin-top:0;  
+    margin-top:-10;  
 }
 
 .mtc img{
@@ -877,7 +877,7 @@ time{
     /*margin-top: 0px;*/
     /*content: url("../img/mts_w108px_X_h95px.jpg");*/
     /*transition-property: margin-top;*/
-     margin-top:0;
+     margin-top:-10;
 }
 .mtc:hover img{
 /*    position: absolute;
@@ -888,15 +888,15 @@ time{
     /*margin-top: 0px;*/
     /*content: url("../img/mts_w108px_X_h95px.jpg");*/
     /*transition-property: margin-top;*/
-    margin-top:0px;
+    margin-top:-10px;
 }
 
 .bg_in {
     /*padding-top: 50px;*/
 }
 .mtc img, .bg {
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
 }
 /*.mtc:hover{*/
 /*    padding-top: 10px;
