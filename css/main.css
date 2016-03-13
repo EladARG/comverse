@@ -750,7 +750,7 @@ time{
 }
 
 .success_stories_internal li{
-    display: inline-block;
+    display: inline-flex;
     padding-left: 10px;
 }
 
