@@ -397,6 +397,7 @@ list-style-type: none;
     margin-bottom: 0px;
     z-index: 25;
     position: relative;
+    text-align: center;
 
 
 
@@ -415,7 +416,7 @@ list-style-type: none;
 .what_can_we_do ul{
     padding-left: 0px;
     list-style: none;
-    display: block;
+    display: inline-flex;
 
 }
 
