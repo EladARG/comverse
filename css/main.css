@@ -2480,8 +2480,23 @@ text-align: left;
   border-radius: 3px;
     
 }
+.boxes_cls{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    float: middle;
+}
 
-.seconds,
+.boxes_cls:after{
+    content: '›';
+    font-size: 48px;
+    top: 50%;
+    right: 20px;
+    line-height: 0;
+    position: absolute;
+
+}
+.second,
 .third,
 .forth{
     background: #BCBCBC;
