@@ -2083,7 +2083,7 @@ margin-bottom: 10px;
 
 .site_map_internal li a:hover {
     display: block;
-    background-color: white;
+    /*background-color: white;*/
     list-style-type: none;
     text-decoration: underline;
 }
