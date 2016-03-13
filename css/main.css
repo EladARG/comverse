@@ -212,6 +212,7 @@ list-style-type: none;
     text-align: left;
     /*width:415px;*/
     color: white;
+    text-decoration: none;
 }
 .carousel_cls_internal ul{
     padding-left: 0;
