@@ -2003,3 +2003,8 @@ padding-bottom: 6px;
     text-align: left;
     padding-left: 10px;
 }
+
+.more_btn_see_more{
+  text-decoration: none;
+  position: center;
+}
