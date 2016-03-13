@@ -1349,10 +1349,12 @@ padding-bottom: 6px;
 .graeme_miller blockquote p{
     margin: 0;
 }
-
-.graeme_miller blockquote:before{
-    /*content: url("../img/JT-GM-face.png");*/
+.graeme_miller blockquote p:before{
     content: url("../img/quote-grey.png");
+}
+.graeme_miller blockquote:before{
+    content: url("../img/JT-GM-face.png");
+    /*content: url("../img/quote-grey.png");*/
     float:left;
     padding-right: 5px;
 }
