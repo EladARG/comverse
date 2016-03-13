@@ -2081,7 +2081,7 @@ font-weight: normal;
 margin-bottom: 10px;
 }
 
-.site_map_cls li a:hover > .site_map_internal {
+.site_map_internal li a:hover {
     display: block;
     background-color: white;
     list-style-type: none;
