@@ -214,6 +214,7 @@ list-style-type: none;
     /*width:415px;*/
     color: white;
     text-decoration: none;
+    padding-left: 20px;
 
 }
 .carousel_cls_con_up > li{
@@ -228,7 +229,7 @@ list-style-type: none;
 } 
 .carousel_cls_con_up > li > a{
     font-weight: 400;
-    font-size: 22px; 
+    font-size: 18px; 
     /*line-height: 44px; */
     text-align: left;
     /*width:415px;*/
