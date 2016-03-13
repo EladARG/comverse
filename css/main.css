@@ -853,7 +853,7 @@ time{
     left:0;
     width:110px;
     height:97px;
-    margin-top:57px;
+    margin-top:97px;
 }
 .mtc:hover .bg{
 /*    padding-top: 10px;
@@ -895,8 +895,8 @@ time{
     /*padding-top: 50px;*/
 }
 .mtc img, .bg {
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 /*.mtc:hover{*/
 /*    padding-top: 10px;
