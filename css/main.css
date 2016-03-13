@@ -678,49 +678,7 @@ time{
 
 
 
-/*Hover*/
 
-.container {
-    position:relative;
-    overflow:hidden;
-    width:200px;
-    height:150px;
-}
-.container .textbox {
-    position:absolute;
-    top:0;
-    left:0;
-    width:200px;
-    height:150px;
-    margin-left:-210px;
-}
-.container:hover .textbox {
-    margin-left:0;  
-}
-.container img {
-    margin-left:0;
-}
-.container:hover img {
-    margin-left:210px;
-}
-.text {
-    padding-top: 50px;
-}
-.container img, .textbox {
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-}
-HTML
-<div class="container">
-<img src="" alt="">
-<div class="textbox">
-<p class="text">TEXT</p>
-</div>
-</div>
-
-/* Note: In order to slide to the left, change the following values:
-.container .textbox {margin-left:210px;}, .container:hover img {margin-left:-210px;} */
-/*Hover*/
 
 
 
@@ -872,20 +830,60 @@ HTML
     height: 97px;
     padding-right: 5px;
     width: 110px;
-    margin-top: 0px;
+    /*margin-top: 0px;*/
     content: url("../img/mts_w108px_X_h95px.jpg");
-    transition-property: margin-top;
+    /*transition-property: margin-top;*/
 }
-
+.mtc .background-image: "../img/mts_w108px_X_h95px.jpg"{
+    position: absolute;
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    /*margin-top: 0px;*/
+    content: url("../img/mts_w108px_X_h95px.jpg");
+    /*transition-property: margin-top;*/
+}
 .mtc:hover{
     padding-top: 10px;
     height: 97px;
     padding-right: 5px;
     width: 110px;
-    /*content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");*/
-    content: url("../img/mts_w108px_X_h95px.jpg");
+    content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
+    /*content: url("../img/mts_w108px_X_h95px.jpg");*/
     position: relative;
-    margin-top: 97px;
+    /*margin-top: 97px;*/
+}
+
+.mtc{
+    position: relative;
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    /*margin-top: 0px;*/
+    content: url("../img/mts_w108px_X_h95px.jpg");
+    /*transition-property: margin-top;*/
+}
+.mtc .textbox{
+    position: absolute;
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    /*margin-top: 0px;*/
+    content: url("../img/mts_w108px_X_h95px.jpg");
+    /*transition-property: margin-top;*/
+}
+.mtc:hover{
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
+    /*content: url("../img/mts_w108px_X_h95px.jpg");*/
+    position: relative;
+    /*margin-top: 97px;*/
 }
 
 .tata_sky{
