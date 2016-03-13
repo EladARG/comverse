@@ -2077,13 +2077,18 @@ font-weight: normal;
 margin-bottom: 10px;
 }
 
+.footer li:hover > .site_map_internal {
+    display: block;
+    background-color: white;
+    list-style-type: none;
+}
 
 .site_map_internal_last{
     background-color: rgba(225, 225, 225, 0.28);
-    background: -webkit-linear-gradient(90deg, rgba(93, 93, 93, 0.28) 0%, rgba(255, 255, 255, 0.28) 100%);
+/*    background: -webkit-linear-gradient(90deg, rgba(93, 93, 93, 0.28) 0%, rgba(255, 255, 255, 0.28) 100%);
     background: -moz-linear-gradient(90deg, rgba(93, 93, 93, 0.28) 0%, rgba(255, 255, 255, 0.28) 100%);
     background: -o-linear-gradient(90deg, rgba(93, 93, 93, 0.28) 0%, rgba(255, 255, 255, 0.28) 100%);
-    background: -ms-linear-gradient(90deg, rgba(93, 93, 93, 0.28) 0%, rgba(255, 255, 255, 0.28) 100%);
+    background: -ms-linear-gradient(90deg, rgba(93, 93, 93, 0.28) 0%, rgba(255, 255, 255, 0.28) 100%);*/
     background: linear-gradient(0deg, rgba(93, 93, 93, 0.28) 0%, rgba(255, 255, 255, 0.28) 100%);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
     width: 253px;
