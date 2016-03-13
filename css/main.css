@@ -2263,7 +2263,8 @@ text-align: left;
 
 .login_cls,
 .search,
-.nav_cls{
+.nav_cls,
+.offerings{
     display: none;
 }
 
@@ -2546,6 +2547,7 @@ text-align: left;
             display: inline-flex;
 }*/
 .mobile_offerings_cls{
+  background: url("../img/weDoBackgroundfix.png") no-repeat center center;
     position: relative;
     height: 100%;
     text-align: center;
