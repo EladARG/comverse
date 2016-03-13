@@ -2005,10 +2005,11 @@ padding-bottom: 6px;
 }
 
 .more_btn_see_more{
-/*  text-decoration: none;
-  position: center;*/
+  width: 180px;
+  margin-left: 43%;
+  margin-top: 30px;
 }
 .more_btn_see_more > a{
   text-decoration: none;
-  text-decoration-color: white;
+  color: white;
 } 
