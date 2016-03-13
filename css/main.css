@@ -2561,7 +2561,12 @@ text-align: left;
 .what_can_we_do h3{
     padding-top: 100px;
 }
+.what_can_we_do ul{
+    padding-left: 0px;
+    list-style: none;
+    display: inline-flex;
 
+}
 /*-------------------------------- Happenings ---------------------------*/
 /*-------------------------------- Happenings ---------------------------*/
     .happenings_cls_internal{
