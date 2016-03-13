@@ -839,6 +839,10 @@ display: inline-flex;
 padding-top: 15px;
 
 }
+.companies_middle{
+display: inline-flex;
+
+}
 .mtc{
 /*    position: relative;
     padding-top: 10px;
