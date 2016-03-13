@@ -889,7 +889,7 @@ time{
     position: relative;
     /*margin-top: 97px;*/
     visibility: visible;
-    margin-top:0;  
+    margin-top:0px;  
 }
 
 .jonathan_pierce .person_box{
@@ -901,7 +901,7 @@ time{
     /*margin-top: 0px;*/
     /*content: url("../img/mts_w108px_X_h95px.jpg");*/
     /*transition-property: margin-top;*/
-     margin-top:0;
+     margin-top:0px;
 }
 .jonathan_pierce:hover .person_box{
 /*    position: absolute;
@@ -1185,7 +1185,7 @@ padding-bottom: 6px;
     position: relative;
     /*margin-top: 97px;*/
     visibility: visible;
-    margin-top:0;  
+    margin-top:0px;  
 }
 
 .upc img{
@@ -1197,7 +1197,7 @@ padding-bottom: 6px;
     /*margin-top: 0px;*/
     /*content: url("../img/mts_w108px_X_h95px.jpg");*/
     /*transition-property: margin-top;*/
-     margin-top:0;
+     margin-top:0px;
 }
 .upc:hover img{
 /*    position: absolute;
@@ -1281,7 +1281,7 @@ padding-bottom: 6px;
     position: relative;
     /*margin-top: 97px;*/
     visibility: visible;
-    margin-top:0;  
+    margin-top:0px;  
 }
 
 .graeme_miller .person_box{
@@ -1293,7 +1293,7 @@ padding-bottom: 6px;
     /*margin-top: 0px;*/
     /*content: url("../img/mts_w108px_X_h95px.jpg");*/
     /*transition-property: margin-top;*/
-     margin-top:0;
+     margin-top:0px;
 }
 .graeme_miller:hover .person_box{
 /*    position: absolute;
@@ -1691,7 +1691,7 @@ padding-bottom: 6px;
     margin-top: 0px;
     content: url("../img/mts_w108px_X_h95px.jpg");
     transition-property: margin-top;*/
-    position:absolute;
+    position:relative;
     visibility: collapse;
     top:0;
     left:0;
