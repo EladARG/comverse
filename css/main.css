@@ -2071,7 +2071,9 @@ font-size: 14px;
     font-weight: normal;
     color: white;
 }
-
+.site_map_internal ul > li{
+    color: white;
+}
 .site_map_internal h5{
 font-size: 20px;
 font-weight: normal;
@@ -2082,6 +2084,7 @@ margin-bottom: 10px;
     display: block;
     background-color: white;
     list-style-type: none;
+    text-decoration: underline;
 }
 
 .site_map_internal_last{
