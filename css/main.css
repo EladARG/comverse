@@ -865,7 +865,7 @@ time{
     position: relative;
     /*margin-top: 97px;*/
     visibility: visible;
-    margin-top:-10;  
+    margin-top:0;  
 }
 
 .mtc img{
@@ -877,7 +877,7 @@ time{
     /*margin-top: 0px;*/
     /*content: url("../img/mts_w108px_X_h95px.jpg");*/
     /*transition-property: margin-top;*/
-     margin-top:-10;
+     margin-top:0;
 }
 .mtc:hover img{
 /*    position: absolute;
@@ -888,7 +888,7 @@ time{
     /*margin-top: 0px;*/
     /*content: url("../img/mts_w108px_X_h95px.jpg");*/
     /*transition-property: margin-top;*/
-    margin-top:-10px;
+    margin-top:0px;
 }
 
 .bg_in {
