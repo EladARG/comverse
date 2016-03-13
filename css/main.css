@@ -2545,7 +2545,7 @@ text-align: left;
     max-width: 155px;
             display: inline-flex;
 }*/
-.offerings_cls{
+.mobile_offerings_cls{
     position: relative;
     height: 100%;
     text-align: center;
@@ -2553,11 +2553,11 @@ text-align: left;
     padding: 0;
 }
 
-.what_can_we_do{
+.mobile_what_can_we_do{
     height: 100%;
     
 }
-.what_can_we_do h3{
+.mobile_what_can_we_do h3{
     padding-top: 100px;
 }
 
