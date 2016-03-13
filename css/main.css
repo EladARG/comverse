@@ -213,7 +213,7 @@ list-style-type: none;
     /*width:415px;*/
     color: white;
     text-decoration: none;
-    
+
 }
 .carousel_cls_internal ul{
     padding-left: 0;
@@ -914,7 +914,10 @@ time{
     /*margin-top: 97px;*/
 /*}*/
 
-.tata_sky{
+
+
+
+/*.tata_sky{
     position: relative;
     height: 97px;
     padding-right: 5px;
@@ -928,9 +931,98 @@ time{
     height: 97px;
     padding-right: 5px;
     width: 110px;
+}*/
+
+
+.tata_sky{
+/*    position: relative;
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    margin-top: 0px;
+    content: url("../img/mts_w108px_X_h95px.jpg");
+    transition-property: margin-top;*/
+    position:relative;
+    overflow:hidden;
+    width:110px;
+    height:97px;
+}
+.tata_sky .bg{
+/*    position: absolute;
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    margin-top: 0px;
+    content: url("../img/mts_w108px_X_h95px.jpg");
+    transition-property: margin-top;*/
+    position:absolute;
+    visibility: collapse;
+    top:0;
+    left:0;
+    width:110px;
+    height:97px;
+    margin-top:97px;
+}
+.tata_sky:hover .bg{
+/*    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");*/
+    /*content: url("../img/mts_w108px_X_h95px.jpg");
+    position: relative;
+    /*margin-top: 97px;*/
+    visibility: visible;
+    margin-top:0;  
 }
 
-.upc{
+.tata_sky img{
+/*    position: relative;
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;*/
+    /*margin-top: 0px;*/
+    /*content: url("../img/mts_w108px_X_h95px.jpg");*/
+    /*transition-property: margin-top;*/
+     margin-top:0;
+}
+.tata_sky:hover img{
+/*    position: absolute;
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;*/
+    /*margin-top: 0px;*/
+    /*content: url("../img/mts_w108px_X_h95px.jpg");*/
+    /*transition-property: margin-top;*/
+    margin-top:0px;
+}
+
+.bg_in {
+    /*padding-top: 50px;*/
+}
+.tata_sky img, .bg {
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.upc{
     position: relative;
     height: 97px;
     width: 110px;
@@ -943,9 +1035,82 @@ time{
     content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
     height: 97px;
     width: 110px;
+}*/
+
+.upc{
+/*    position: relative;
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    margin-top: 0px;
+    content: url("../img/mts_w108px_X_h95px.jpg");
+    transition-property: margin-top;*/
+    position:relative;
+    overflow:hidden;
+    width:110px;
+    height:97px;
+}
+.upc .bg{
+/*    position: absolute;
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    margin-top: 0px;
+    content: url("../img/mts_w108px_X_h95px.jpg");
+    transition-property: margin-top;*/
+    position:absolute;
+    visibility: collapse;
+    top:0;
+    left:0;
+    width:110px;
+    height:97px;
+    margin-top:97px;
+}
+.upc:hover .bg{
+/*    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;
+    content: url("../img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");*/
+    /*content: url("../img/mts_w108px_X_h95px.jpg");
+    position: relative;
+    /*margin-top: 97px;*/
+    visibility: visible;
+    margin-top:0;  
 }
 
+.upc img{
+/*    position: relative;
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;*/
+    /*margin-top: 0px;*/
+    /*content: url("../img/mts_w108px_X_h95px.jpg");*/
+    /*transition-property: margin-top;*/
+     margin-top:0;
+}
+.upc:hover img{
+/*    position: absolute;
+    padding-top: 10px;
+    height: 97px;
+    padding-right: 5px;
+    width: 110px;*/
+    /*margin-top: 0px;*/
+    /*content: url("../img/mts_w108px_X_h95px.jpg");*/
+    /*transition-property: margin-top;*/
+    margin-top:0px;
+}
 
+.bg_in {
+    /*padding-top: 50px;*/
+}
+.upc img, .bg {
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
 
 
 
