@@ -457,7 +457,7 @@ list-style-type: none;
 .icons li{
     text-align: center;
     vertical-align: top; 
-    display: inline-block;
+    display: inline-flex;
     font-size: 14px;
     padding-right: 0px;
     max-width: 155px;
@@ -2528,9 +2528,17 @@ text-align: left;
         width: 33%;
         margin-right: 0;
         margin-left: 0;
-        display: inline-flex;
-    }
 
+    }
+/*.icons li{
+    text-align: center;
+    vertical-align: top; 
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 0px;
+    max-width: 155px;
+            display: inline-flex;
+}*/
 .offerings_cls{
     position: relative;
     height: 100%;
