@@ -742,7 +742,7 @@ time{
 
 .success_stories_internal ul{
     position: relative;
-    display: block;
+    display: inline-flex;
     list-style: none;
     padding-left: 0;
     margin-top: 0;
