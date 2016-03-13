@@ -890,7 +890,7 @@ time{
 }
 
 .bg_in {
-    padding-top: 50px;
+    /*padding-top: 50px;*/
 }
 .mtc img, .bg {
     -webkit-transition: all 0.7s ease;
