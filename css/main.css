@@ -1140,7 +1140,9 @@ display: inline-flex;
     padding-bottom: 0px;
 }*/
 
+.person_box{
 
+}
 
 
 .graeme_miller{
@@ -1187,7 +1189,7 @@ display: inline-flex;
     margin-top:0;  
 }
 
-.graeme_miller img{
+.graeme_miller .person_box{
 /*    position: relative;
     padding-top: 10px;
     height: 97px;
@@ -1198,7 +1200,7 @@ display: inline-flex;
     /*transition-property: margin-top;*/
      margin-top:0;
 }
-.graeme_miller:hover img{
+.graeme_miller:hover .person_box{
 /*    position: absolute;
     padding-top: 10px;
     height: 97px;
@@ -1213,7 +1215,7 @@ display: inline-flex;
 .bg_in {
     /*padding-top: 50px;*/
 }
-.graeme_miller img, .bg {
+.graeme_miller .person_box, .bg {
     -webkit-transition: all 0.6s ease;
     transition: all 0.6s ease;
 }
