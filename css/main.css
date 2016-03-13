@@ -231,6 +231,11 @@ list-style-type: none;
     font-size:14px;
 }
 
+.learn_more_btn{
+
+}
+
+
 .more_btn:after{
     content: url("../img/btnArrow.png");
     padding-left: 25px;
