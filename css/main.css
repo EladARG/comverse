@@ -381,7 +381,9 @@ list-style-type: none;
     background: url("../img/weDoBackgroundfix.png") no-repeat center center;
     z-index: 25;
     padding-bottom: 58px;
+    padding-top: 58px;
     position: relative;
+    margin-top: -22px;
 }
 
 
@@ -498,6 +500,7 @@ list-style-type: none;
     font-weight: 400;
     line-height: 28px;
     position: relative;
+    margin-left: 43%;
   }
 
 
