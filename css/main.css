@@ -2564,7 +2564,7 @@ text-align: left;
 .what_can_we_do ul{
     padding-left: 0px;
     list-style: none;
-    position: absolute;
+    position: relative;
 
 }
 /*-------------------------------- Happenings ---------------------------*/
