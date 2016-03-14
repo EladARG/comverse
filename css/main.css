@@ -1205,7 +1205,9 @@ padding-bottom: 6px;
 .adale_kehassan{
     background: white;
     text-align: left;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
     width: 216px;
     margin-left: -6px;
 }
