@@ -592,7 +592,7 @@ list-style-type: none;
 
 .happenings_cls_internal ul{
     position: relative;
-    display: block;
+    display: inline-block;
     list-style-type: none;
     -webkit-padding-start: 0px;
 }
