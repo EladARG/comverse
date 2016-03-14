@@ -108,7 +108,20 @@ li a {
 background-color: white;
 list-style-type: none;
 }
+.nav_cls_internal hr{
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    /*width: 315px;*/
+    height: 100px;
+    display: block;
+/*    padding-left: 10px;
+    padding-right: 5px;*/
+    /*border-top-width: 1px;*/
+    border-left-width: 
+    border-left-style: solid;
+    border-left-color: #ECECEC;
 
+}
 .nav_cls> li > a {
     text-decoration: none;
     color: #585951;
