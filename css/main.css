@@ -939,7 +939,7 @@ padding-bottom: 6px;
     left:0;
     width:110px;
     height:97px;
-    margin-top:77px;
+    margin-top:97px;
 }
 .mtc:hover .bg{
     visibility: visible;
@@ -950,7 +950,7 @@ padding-bottom: 6px;
      margin-top:0;
 }
 .mtc:hover img{
-    margin-top:0px;
+    margin-top:-10px;
 }
 
 .mtc img, .bg {
