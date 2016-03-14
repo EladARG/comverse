@@ -457,7 +457,7 @@ list-style-type: none;
 }
 
 
-.icons li{
+.icons_cls li{
     text-align: center;
     vertical-align: top; 
     display: inline-block;
