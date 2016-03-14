@@ -2550,7 +2550,7 @@ text-align: left;
     position: relative;
     height: 100%;
     text-align: center;
-    /*display: inline-flex;*/
+    display: block;
     padding: 0;
 }
 
@@ -2564,7 +2564,7 @@ text-align: left;
 .what_can_we_do ul{
     padding-left: 0px;
     list-style: none;
-    display: block;
+    position: absolute;
 
 }
 /*-------------------------------- Happenings ---------------------------*/
