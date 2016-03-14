@@ -460,7 +460,7 @@ list-style-type: none;
 .icons li{
     text-align: center;
     vertical-align: top; 
-    display: inline-flex;
+    display: inline-block;
     font-size: 14px;
     padding-right: 0px;
     max-width: 155px;
