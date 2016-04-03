@@ -902,9 +902,9 @@ time{
 .jonathan_pierce .person_box{
      margin-top:0px;
 }
-.jonathan_pierce:hover .person_box{
+/*.jonathan_pierce:hover .person_box{
     margin-top:-26px;
-}
+}*/
 
 .bg_in {
     /*padding-top: 50px;*/
@@ -1255,9 +1255,9 @@ padding-bottom: 6px;
 .adale_kehassan .person_box{
      margin-top:0px;
 }
-.adale_kehassan:hover .person_box{
+/*.adale_kehassan:hover .person_box{
     margin-top:-26px;
-}
+}*/
 
 .adale_kehassan .person_box, .bg {
     -webkit-transition: all 0.6s ease;
