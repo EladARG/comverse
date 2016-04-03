@@ -894,10 +894,10 @@ time{
     margin-top:97px;
     overflow-bottom:hidden;
 }
-.jonathan_pierce:hover .bg{
+/*.jonathan_pierce:hover .bg{
     visibility: visible;
     margin-top:0px;  
-}
+}*/
 
 .jonathan_pierce .person_box{
      margin-top:0px;
@@ -1247,10 +1247,10 @@ padding-bottom: 6px;
     margin-top:97px;
 }
 
-.adale_kehassan:hover .bg{
+/*.adale_kehassan:hover .bg{
     visibility: visible;
     margin-top:0px;  
-}
+}*/
 
 .adale_kehassan .person_box{
      margin-top:0px;
